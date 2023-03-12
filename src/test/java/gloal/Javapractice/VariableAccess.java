@@ -3,10 +3,8 @@ package gloal.Javapractice;
 
 public class VariableAccess {
 //Static variable can use anywhere in project
-//any pacakge
-//any class
-//any method
-//no restrication about the static and non-static method
+//any package any class any method
+//no restriction about the static and non-static method
 	
 	static int myNumber = 300;
 	
@@ -15,7 +13,6 @@ public class VariableAccess {
 //make sure instance variable it doesn't work with the static method
 
 	int number_2 = 200;
-	
 	
 	public  void main(String[] args) {
 //if we declare the variable inside the method that means
